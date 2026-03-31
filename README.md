@@ -1,5 +1,12 @@
 # enterprise-api-design-patterns
 
+
+## What I Drove
+
+- Built a PM-led enterprise API playbook focused on decisions that move delivery, risk, and revenue outcomes.
+- Captured reusable patterns spanning auth, reliability, versioning, governance, and cross-system integrations.
+- Anchored the portfolio in measurable impact (go-live success, incident reduction, migration completion, onboarding speed).
+
 **API design specs, integration patterns, and governance frameworks for enterprise SaaS platforms**
 
 > This repo documents how I think about API architecture as a Product Manager — not as implementation code, but as product decisions that have long-term platform consequences.
@@ -166,3 +173,18 @@ Before signing off on any API spec:
 I built these patterns working in enterprise integration roles at TCS (MuleSoft, Apigee, IBM API Connect) and as a Product Manager at Avasant where I led the design of the integration architecture for an enterprise S2P/CLM platform integrating with SAP, Salesforce, and ServiceNow.
 
 The goal here isn't to teach API design — it's to document how a PM thinks about API decisions differently from an engineer.
+
+---
+
+## Portfolio Lens: Outcomes I Optimize For
+
+These patterns are not theoretical templates; they come from enterprise delivery constraints where product decisions have measurable operational impact. The metrics I optimize for across integrations:
+
+- First-attempt integration go-live success (baseline -> current, pts change, quarterly)
+- Time-to-onboard for enterprise customers/partners (baseline -> current, days)
+- Sev incident volume tied to auth/retries/schema changes (baseline -> current, % delta)
+- Support tickets caused by unclear API contracts (baseline -> current, % delta)
+- Migration completion before version sunset/deprecation deadlines (baseline -> current, pts delta)
+
+When these metrics improve, revenue realization gets faster, implementation risk drops, and trust with enterprise architecture teams compounds.
+
